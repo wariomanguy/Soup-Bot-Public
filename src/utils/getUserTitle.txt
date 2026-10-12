@@ -1,0 +1,4 @@
+const targetMember = targetMessage.member;
+                const targetUser = targetMessage.author;
+
+                const targetDisplayName = targetMember?.nickname || targetMember?.displayName || targetUser.username;
